@@ -1,19 +1,31 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+
+import { Navbar, Nav } from 'react-bootstrap'
+
 
 class Navigation extends Component {
     render() {
         return (
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Story Skill Admin</Navbar.Brand>
+                <Link to='/'>
+                    <Navbar.Brand href='/'>
+                        Story Skill Admin
+                    </Navbar.Brand>
+                </Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                       
+
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#stories">Stories</Nav.Link>
-                        <Nav.Link href="#users">Users</Nav.Link>
+                        <Link to='/stories'>
+                            <Nav.Link href="/stories">Stories</Nav.Link>
+                        </Link>
+                        <Link to='/users'>
+                            <Nav.Link href="/users">Users</Nav.Link>
+                        </Link>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
