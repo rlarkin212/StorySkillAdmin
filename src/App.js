@@ -9,7 +9,7 @@ import './App.css'
 import Navigation from './components/navigation/Navigation'
 import Home from './components/home/Home'
 import Stories from './components/Stories/Stories'
-import Users from './components/users/Users'
+import Users from './components/Users/Users'
 
 function App() {
   return (
