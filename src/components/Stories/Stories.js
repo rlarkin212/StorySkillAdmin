@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import StoriesTable from './StoriesTable'
+import StoriesTable from './storiesTable/StoriesTable'
 
 class Stories extends Component {
     render() {
