@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import LoadingSpinner from '../misc/spinner/LoadingSpinner'
 
 class StoriesTable extends Component {
     constructor(props){
@@ -23,7 +24,7 @@ class StoriesTable extends Component {
     render() {
         return (
             <div>
-                
+                <LoadingSpinner loaded={this.state.loaded}></LoadingSpinner>
             </div>
         )
     }
