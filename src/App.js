@@ -8,7 +8,7 @@ import './App.css'
 //components
 import Navigation from './components/navigation/Navigation'
 import Home from './components/home/Home'
-import Stories from './components/stories/Stories'
+import Stories from './components/stories/Stories';
 import Users from './components/users/Users'
 
 function App() {
