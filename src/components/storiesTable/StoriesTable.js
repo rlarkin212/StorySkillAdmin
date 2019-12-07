@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Table,Button } from 'react-bootstrap'
 
-import LoadingSpinner from '../../misc/spinner/LoadingSpinner'
+import LoadingSpinner from '../misc/spinner/LoadingSpinner'
 
 import './StoriesTable.css'
 
