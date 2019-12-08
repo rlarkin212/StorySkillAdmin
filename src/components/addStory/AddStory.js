@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Button, Modal, Form } from 'react-bootstrap'
 
-import Alert from './../misc/alert/Alert'
-
 import './AddStory.css'
 
 class AddStory extends Component {
