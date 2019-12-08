@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Button, Modal, Form } from 'react-bootstrap'
 
+import Alert from './../misc/alert/Alert'
+
 import './AddStory.css'
 
 class AddStory extends Component {
@@ -106,7 +108,6 @@ class AddStory extends Component {
         })
         .then((res) => res.json())
         .then((result) => {
-            console.log(result)
             this.setState({
                 show: false,
                 title: '',
